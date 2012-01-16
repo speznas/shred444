@@ -198,7 +198,7 @@ static uint8 advertData[] =
 };
 
 // GAP GATT Attributes
-static uint8 attDeviceName[GAP_DEVICE_NAME_LEN] = "CC2540DK-mini Keyfob";
+static uint8 attDeviceName[GAP_DEVICE_NAME_LEN] = "CRANK-mini Keyfob";
 
 // Battery Profile Parameters
 static uint8 batteryLevel = 100;    // Initialize to 100% charged
