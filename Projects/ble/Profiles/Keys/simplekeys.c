@@ -241,7 +241,9 @@ bStatus_t SK_SetParameter( uint8 param, uint8 len, void *pValue )
   bStatus_t ret = SUCCESS;
   switch ( param )
   {
-    case SK_KEY_ATTR:
+    case SK_KEY_ATTR:   
+      //this is the main Key Attribute for button presses
+      
       if ( len == sizeof ( uint8 ) ) 
       {
         skKeyPressed = *((uint8*)pValue);
